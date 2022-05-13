@@ -1,0 +1,16 @@
+{
+  "name": "dd-trace-als-repo",
+  "version": "0.0.1",
+  "description": "Reproduces an ALS compatability issue with dd-trace library",
+  "main": "src/index.js",
+  "repository": "git@github.com:Drew-Kimberly/dd-trace-als-repo.git",
+  "author": "Drew Kimberly <drew.kimberly@konghq.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dd-trace": "^2.7.0",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
